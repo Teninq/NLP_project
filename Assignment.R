@@ -1,4 +1,5 @@
 setwd("D:/Roche/")
+
 assignmentFUN <- function(x,num=10){
   library(XML)
   library(tm)
@@ -65,6 +66,7 @@ generatehash <- function(x){
 
 result <- assignmentFUN("collection.txt",num = 15)
 freq.hash <- generatehash(result)
+
 
 library(wordcloud2)
 data.freq <- data.frame(Term = result$Term,freq = log(result$Freq))

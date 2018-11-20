@@ -107,6 +107,7 @@ length(hclustRes.type)
 
 
 
+
 # Description <- as.vector(as.character(site$Description))
 # Planned_Action <- as.vector(as.character(site$`Planned Action`))
 # Resolution <- as.vector(as.character(site$Resolution))
@@ -147,3 +148,4 @@ length(hclustRes.type)
 # library(wordcloud2)
 # data.freq <- data.frame(Term = term.freq.sorted$Term,freq = log(term.freq.sorted$Freq))
 # wordcloud2(data.freq,size = 0.5,shape = "star")
+
